@@ -5,3 +5,4 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 hectorqin/reader:openj9-latest
+dlktc/nas-tools:2.9.1
