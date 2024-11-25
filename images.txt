@@ -15,5 +15,5 @@ langgenius/dify-sandbox:0.2.10
 ubuntu/squid:latest
 certbot/certbot
 nginx:latest
-
+amtoaer/bili-sync
 
