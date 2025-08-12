@@ -16,4 +16,5 @@ ubuntu/squid:latest
 certbot/certbot
 nginx:latest
 amtoaer/bili-sync
-
+whyour/qinglong:latest
+whyour/qinglong:debian
