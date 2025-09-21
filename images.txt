@@ -18,3 +18,4 @@ nginx:latest
 amtoaer/bili-sync
 whyour/qinglong:latest
 whyour/qinglong:debian
+ghcr.io/fish2018/pansou:latest
