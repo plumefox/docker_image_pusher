@@ -20,3 +20,4 @@ whyour/qinglong:latest
 whyour/qinglong:debian
 ghcr.io/fish2018/pansou:latest
 ghcr.io/fish2018/pansou-web
+gitea/gitea:latest
