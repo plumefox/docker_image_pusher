@@ -22,3 +22,4 @@ ghcr.io/fish2018/pansou:latest
 ghcr.io/fish2018/pansou-web
 gitea/gitea:latest
 postgres:latest
+docker.io/library/mysql:8
