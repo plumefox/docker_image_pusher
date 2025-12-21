@@ -25,3 +25,4 @@ postgres:latest
 docker.io/library/mysql:8
 docker.io/gitea/act_runner:nightly
 ubuntu-latest
+docker.io/gitea/act_runner:latest
