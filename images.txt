@@ -28,4 +28,5 @@
 #ubuntu:latest
 #docker.gitea.com/runner-images:ubuntu-22.04
 #docker.gitea.com/runner-images:ubuntu-20.04
-ghcr.io/1186258278/openclaw-zh:latest
+#ghcr.io/1186258278/openclaw-zh:latest
+ghcr.io/sillytavern/sillytavern:latest
