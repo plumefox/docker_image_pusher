@@ -31,4 +31,5 @@
 #ghcr.io/1186258278/openclaw-zh:latest
 #ghcr.io/sillytavern/sillytavern:latest
 #ghcr.io/dani-garcia/vaultwarden:latest
-ghcr.io/alexta69/metube
+#ghcr.io/alexta69/metube
+ghcr.io/berriai/litellm:latest
