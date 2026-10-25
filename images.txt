@@ -32,4 +32,5 @@
 #ghcr.io/sillytavern/sillytavern:latest
 #ghcr.io/dani-garcia/vaultwarden:latest
 #ghcr.io/alexta69/metube
-ghcr.io/berriai/litellm:latest
+#ghcr.io/berriai/litellm:latest
+hermes-agent
