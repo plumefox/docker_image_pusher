@@ -33,4 +33,4 @@
 #ghcr.io/dani-garcia/vaultwarden:latest
 #ghcr.io/alexta69/metube
 #ghcr.io/berriai/litellm:latest
-hermes-agent:latest
+sbx/hermes-agent:latest
