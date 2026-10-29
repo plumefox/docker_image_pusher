@@ -33,4 +33,5 @@
 #ghcr.io/dani-garcia/vaultwarden:latest
 #ghcr.io/alexta69/metube
 #ghcr.io/berriai/litellm:latest
-nousresearch/hermes-agent:latest
+#nousresearch/hermes-agent:latest
+node:24-slim
