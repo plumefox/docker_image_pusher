@@ -22,7 +22,7 @@ jobs:
       run: |
           echo "=== 清理前 ==="
           df -h
-          
+      
           # 1. 清理 runner 历史诊断日志（3天前）
           find /home/runner/actions-runner -path "*_diag/*.log" -mtime +3 -delete 2>/dev/null || true
           
