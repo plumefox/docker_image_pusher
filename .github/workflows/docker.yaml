@@ -17,34 +17,7 @@ jobs:
   build:
     name: Pull
     runs-on: ubuntu-latest
-    steps:
-    - name: 清理磁盘
-      run: |
-          echo "=== 清理前 ==="
-          df -h
-      
-          # 1. 清理 runner 历史诊断日志（3天前）
-          find /home/runner/actions-runner -path "*_diag/*.log" -mtime +3 -delete 2>/dev/null || true
-          
-          # 2. 清理其他任务残留的 _work（跳过当前正在运行的任务）
-          for d in /home/runner/actions-runner/_work/*/; do
-            if [ "$d" != "$(dirname "$GITHUB_WORKSPACE")/" ]; then
-              rm -rf "$d" 2>/dev/null || true
-            fi
-          done
-          
-          # 3. 清理旧版本 runner 的缓存（保留当前版本）
-          ls -d /home/runner/actions-runner/cached/*/ 2>/dev/null | head -n -1 | xargs rm -rf 2>/dev/null || true
-          
-          # 4. 清理 Docker（如果有）
-          docker system prune -af --volumes 2>/dev/null || true
-          
-          # 5. 清理工具缓存里的旧版本
-          rm -rf /home/runner/actions-runner/_work/_tool 2>/dev/null || true
-          
-          echo "=== 清理后 ==="
-          df -h
-    
+    steps:    
     - name: Before freeing up disk space
       run: |
         echo "Before freeing up disk space"
