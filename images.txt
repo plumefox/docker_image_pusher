@@ -35,4 +35,4 @@
 #ghcr.io/berriai/litellm:latest
 #nousresearch/hermes-agent:latest
 #node:24-slim
-smanx/deepseek-harness:devtools-latest
+#smanx/deepseek-harness:devtools-latest
