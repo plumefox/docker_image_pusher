@@ -36,3 +36,4 @@ ghcr.io/dani-garcia/vaultwarden:latest
 #nousresearch/hermes-agent:latest
 #node:24-slim
 #ghcr.io/smanx/deepseek-harness:devtools-latest
+linuxserver/calibre-web:latest
