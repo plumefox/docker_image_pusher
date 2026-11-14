@@ -37,4 +37,4 @@
 #node:24-slim
 #ghcr.io/smanx/deepseek-harness:devtools-latest
 #linuxserver/calibre-web:latest
---platform=linux/amd64 ghcr.io/dadihu123/st-manager:latest
+ghcr.io/dadihu123/st-manager:v1.2.0@sha256:17ceae6dd3da6d4e85e67b2fce2dbb730e530a27bc0480c20eb420fa288f8677
